@@ -21,9 +21,8 @@
   .tag { text-align: center; color: var(--teal); font-family: "Permanent Marker", cursive; font-size: 1.2rem; margin: 0 0 1.4em; }
   .app { display: flex; gap: 16px; align-items: center; padding: 14px 16px; margin: 0 0 16px; border: 3px solid var(--ink); border-radius: 14px; background: #fff; color: var(--ink); text-decoration: none; }
   a.app:hover { background: #f3fbf9; }
-  .app img { width: 72px; height: 72px; border: 3px solid var(--ink); border-radius: 16px; flex: none; }
+  .app img { width: 72px; height: 72px; flex: none; }
   .app p { margin: 0.2em 0 0; }
-  .soon { opacity: 0.75; }
   .more { color: var(--teal); font-weight: 700; }
   footer { margin-top: 1.6em; font-size: 0.85rem; opacity: 0.7; text-align: center; }
 </style>
@@ -32,13 +31,14 @@
 <main>
 <h1>chchmatt</h1>
 <p class="tag">Little games, drawn by hand</p>
+<a class="app" href="doodle-poker/">
+  <img src="doodle-poker/icon.png" alt="">
+  <div><h2>Doodle Poker</h2><p>A poker companion: record your hands and sessions, remember the players, and doodle all over it.</p><span class="more">Open &rarr;</span></div>
+</a>
 <a class="app" href="doodle-tower/">
   <img src="doodle-tower/icon.png" alt="">
   <div><h2>Doodle Tower</h2><p>A game for Android: draw elevators, doors, walls and windows to climb an endless tower, and keep away from the police.</p><span class="more">Open &rarr;</span></div>
 </a>
-<div class="app soon">
-  <div><h2>Doodle Poker</h2><p>A poker companion: record your hands and sessions, remember the players, and doodle all over it. Coming soon.</p></div>
-</div>
 <footer>chchmatt</footer>
 </main>
 </body>
